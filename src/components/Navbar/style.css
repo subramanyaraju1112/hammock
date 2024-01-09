@@ -1,0 +1,14 @@
+.nav-section {
+  color: rgba(0, 0, 0, 0.31);
+  box-shadow: 8px 4px 62px 6px rgba(0, 0, 0, 0.25);
+}
+
+.nav-links {
+  list-style: none;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.nav-links:hover {
+  cursor: pointer;
+}
