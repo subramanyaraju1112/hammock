@@ -1,18 +1,30 @@
-.experience-headline {
+.holidays-section {
+  background: #e6fcf8;
+  position: relative;
+}
+
+.woman-image {
+  position: absolute;
+  right: 0;
+}
+
+.holidays-text {
+  color: rgba(64, 33, 255, 0.6);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.holidays-headline {
   color: rgba(46, 46, 46, 0.6);
   font-size: 3rem;
   font-weight: 700;
 }
 
-.experience-section {
-  background: #e6fcf8;
-}
-
-.experience-image {
+.holidays-image {
   position: relative;
 }
 
-.experience-content {
+.holidays-content {
   position: absolute;
   inset: 0;
   border-radius: 0px 0px 35px 35px;
@@ -21,14 +33,13 @@
     rgba(255, 255, 255, 0) 55.13%,
     #000 98.98%
   );
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 20px;
 }
 
-.experience-text {
+.package-text {
   color: #fff;
   font-size: 1rem;
   font-weight: 700;
